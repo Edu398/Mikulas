@@ -1,0 +1,84 @@
+{
+    box-sizing: border-box;
+  }
+  body{background-image: url(hatter.jpg);}
+  aside img {
+    width: 50%;
+  }
+  
+  main {
+    max-width: 1000px;
+    width: 80%;
+    background-color: RGB(255,255,230);
+    margin: 0 auto;
+  }
+  
+  header {
+    background-image: url(fejlec.jpg);
+    height: 550px;
+    opacity: 0.8;
+    text-align: center;
+    
+  }
+  
+  header h1 {
+    color: red;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  
+  nav {
+    background-color: red;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    flex: 0 0 33%;
+    float: left;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: green;
+  }
+  
+  article {
+    text-align: justify;
+  }
+  
+  article p {
+    font-size: 10px;
+  }
+  
+  article h2 {
+    font-size: 15px;
+    color: #ff1a1a;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  
+  article img {
+    float: right;
+  }
